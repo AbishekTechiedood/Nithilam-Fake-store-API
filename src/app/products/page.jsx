@@ -24,7 +24,7 @@ export default async function ProductsPage({
   const productsPerPage = 4;
 
   // CURRENT PAGE
-  const params =  searchParams;
+  const params = searchParams;
 
 const currentPage =
   Number(params.page) || 1;
